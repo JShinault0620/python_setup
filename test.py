@@ -11,8 +11,11 @@ print(pack('python', 'is', 'cool'))
 def eat_lunch(food_list):
 	for food in food_list:
 		if food == food_list[0]:
-			print(f'I eat {food}')
+			print(f'I eat {food}.')
+		elif food == food_list [-1]:
+			print(f'Then I eat {food}.')
+			print('My lunchbox is empty.')
 		else:
-			print(f'Then I eat {food}')
+			print(f'Then I eat {food}.')
 
 eat_lunch(['Apple', 'Burger', 'Sandwich'])
